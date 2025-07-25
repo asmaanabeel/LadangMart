@@ -1,0 +1,122 @@
+.navbar{
+    background-color: #416A40;
+}
+.text-col{
+    color: #B3F04A !important;
+}
+.text-col1{
+color: #416A40 !important;
+}
+.textcol2{
+color:#FFFAEF !important ;
+}
+.text-col2{
+    color:#237722 !important;
+}
+.text-col3{
+    color: #FFFAEF !important;
+}
+.nav-link:hover {
+  color: #B3F04A !important;
+}
+.background-col{
+background-color: #FFFAEF !important;
+}
+
+.background-col1{
+    background-color:#B3F04A !important ;
+}
+.background-col2{
+    background-color:  #416A40 !important;
+}
+.icons i{
+    color: #B3F04A;
+}
+.icons .botton{
+border-radius:20px !important;
+padding-top: 5px;
+}
+.Hero-section h1{
+    padding-top: 30px;
+    color: #FFFAEF;
+    font-size: 100px;
+    text-align: center;
+}
+.img{
+    width: 460px;
+}
+.hero .part a{
+border-radius:20px ;
+}
+.Trending-Grocery img{
+align-items: center !important;
+width: 80px !important;
+}
+.padding{
+    padding-top: 150px;
+}
+.products:hover{
+background-color:#FFFAEF;
+}
+.font-size{
+font-size: 100px;
+}
+.padding{
+    padding-top: 100px !important;
+}
+.padding1{
+    padding-bottom: 150px !important;
+}
+.padding2{
+    padding-bottom:50px !important ;
+}
+
+body {
+    background-color: #f8f9fa; 
+}
+
+
+.custom-card-left-img img {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.custom-card-right-img {
+    height: 350px; 
+    object-fit: cover;
+}
+
+.custom-read-more {
+    border-radius: 50px !important; 
+}
+
+
+.footer-bg-custom {
+    background-color: #4A6C4A; 
+}
+
+.Latest-Post :hover{
+background-color:#FFFAEF;
+}
+
+.form-control .btn-outline-light {
+    background-color: #237722;
+}
+
+
+.social-icon-size-custom {
+    width: 40px;
+    height: 40px;
+    color: #A3D966;
+    background-color: #A3D966 !important;
+    border-color: #A3D966 !important;
+}
+
+.social-icon-size-custom:hover {
+    background-color: #B2E081 !important; 
+    border-color: #B2E081 !important;
+}
+
+.form-control .btn-outline-light { 
+    background-color: #416A40 !important;
+}
