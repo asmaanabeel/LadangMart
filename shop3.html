@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LadangMart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css 5.3--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg  ">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">LadangMart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+        <li class="nav-item ">
+          <a class="nav-link active text-col" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About Us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white"  href="#">Service</a>
+        </li> 
+
+         <li class="nav-item">
+          <a class="nav-link active text-white"  href="#">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages
+          </a>
+          <ul class="dropdown-menu background-col">
+            <li><a class="dropdown-item text-col1" href="#">Out Team</a></li>
+            <li><a class="dropdown-item text-col1" href="#">Testimonial</a></li>
+            <li><a class="dropdown-item text-col1" href="#">FAQ</a></li>
+            <li><a class="dropdown-item text-col1" href="#">News</a></li>
+            <li><a class="dropdown-item text-col1" href="#">Single News</a></li>
+            <li><a class="dropdown-item text-col1" href="#">Contact</a></li>
+            <li><a class="dropdown-item text-col1" href="#">404</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class=" icons d-flex align-items-center gap-3">
+      <a href="#" class="text-white fs-5 position-relative background-col2">
+        <i class="fas fa-xl fa-shopping-bag"></i>
+      </a>
+      <a href="#" class="text-white fs-5 background-col2 "><i class="fas fa-user-circle fa-xl"></i></a>
+      <a href="#" class=" botton btn  text-col1 background-col1">Contact Us</a>
+    </div>
+  </div>
+  </div>
+  </nav>
+
+  <div class="container py-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-start">
+                <img src="./assets/image/Carrot-Fruit-150x150.webp" class="img-fluid rounded w-50" alt="Fresh Strawberries">
+                </div>
+
+            <div class="col-md-6  pt-5">
+                <h2 class=" fs-1 fw-semibold mt-4 mt-md-0 text-col1 ">Crispy Carrots</h2>
+                <p class=" fw-medium mt-3 text-col1 fs-3 pt-3 padding2">$32.00</p>
+               <a href="shop.html" class="btn text-col1 background-col1 rounded-pill text-center">
+               <i class="fa-solid fa-cart-shopping me-1 "></i> Add to cart</a>
+                
+            </div>
+        </div>
+  </div>
+
+  <div class="borders border-bottom border-secondary border-opacity-25 my-5 mx-auto" style="width: 90%;"></div>
+
+  <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+            <h2 class="reviews-title-color mb-4 text-col1 fs-1 ">Reviews</h2>
+            <h3 class="mb-2 text-col1 ">There are no reviews yet.</h3>
+            <p class="mb-2 text-col1">Be the first to review 'Fresh Strawberry'</p>
+            <p class="mb-4 required-text text-col1">Your email address will not be published. Required fields are marked <span class="text-danger">*</span></p>
+                <form>
+                    <div class="mb-3">
+                        <label for="rating" class="form-label d-block text-col1">Your rating <span class="text-danger">*</span></label>
+                        <div class="rating-stars">
+                            <i class="far fa-star text-col1"></i>
+                            <i class="far fa-star text-col1"></i>
+                            <i class="far fa-star text-col1"></i>
+                            <i class="far fa-star text-col1"></i>
+                            <i class="far fa-star text-col1"></i>
+                            </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="reviewText" class="form-label text-col1">Your review <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="reviewText" rows="5" required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label text-col1">Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="nameInput" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label text-col1">Email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="emailInput" required>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="saveInfoCheck">
+                        <label class="form-check-label" for="saveInfoCheck text-col1">Save my name, email, and website in this browser for the next time I comment.</label>
+                    </div>
+
+                    <button type="submit" class="btn background-col2 textcol2">Submit</button>
+                    </form>
+            </div>
+        </div>
+  </div>
+
+  <div class="borders border-bottom border-secondary border-opacity-25 my-5 mx-auto" style="width: 90%;"></div>
+
+   <section class="trending-products pt-5 padding1 padding container">
+  <div class="container d-flex pb-5 justify-content-between ">
+  <h2 class=" text-col1 fs-1 fw-bold mb-4">Related products</h2>
+  <a href="#" class="  btn text-col1 background-col1 rounded-pill fs-2 ">View more</a>
+  </div>
+  <div class="  container">
+    <div class=" row g-4">
+      <div class=" col-md-3 col-sm-6">
+        <div class="products card h-100 text-center border-0 shadow-sm p-3">
+          <img src="./assets/image/Strawberry-Fruit-150x150.webp"  class="card-img-top img-fluid w-100" alt="Product Image">
+          <div class="card-body">
+            <h2 class="card-title text-col1 pt-1">Fresh Strawberry</h2>
+            <pv class="text-col1">Fruit , Strawberry</pv>
+            <p class="card-text text-success fw-bold">$32.00</p>
+            <a href="shop.html" class="btn text-col1 background-col1 rounded-pill text-center">
+            <i class="fa-solid fa-cart-shopping me-1"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="products card h-100 text-center border-0 shadow-sm p-3">
+          <img src="./assets/image/Orange-Fruit-150x150.webp"  class="card-img-top img-fluid w-100" alt="Product Image">
+          <div class="card-body">
+            <h2 class="card-title text-col1 pt-4">Sweet Oranges</h2>
+            <pv class="text-col1 pt-2">Fruit , Oranges</pv>
+            <p class="card-text text-success fw-bold pb-3">$32.00</p>
+            <a href="#" class="btn text-col1 background-col1 rounded-pill text-center">
+            <i class="fa-solid fa-cart-shopping me-1"></i> Add to cart</a>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-md-3 col-sm-6">
+        <div class="products card h-100 text-center border-0 shadow-sm p-3">
+          <img src="./assets/image/Pineple-Fruit-150x150.webp"  class="card-img-top img-fluid w-100" alt="Product Image">
+          <div class="card-body">
+            <h2 class="card-title text-col1 pt-1 pb-3">Fresh Pineple</h2>
+            <pv class="text-col1">Fruit , Pineple</pv>
+            <p class="card-text text-success fw-bold pb-4">$32.00</p>
+            <a href="#" class="btn text-col1 background-col1 rounded-pill text-center">
+            <i class="fa-solid fa-cart-shopping me-1"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="products card h-100 text-center border-0 shadow-sm p-3">
+          <img src="./assets/image/Watermelon-Fruit-150x150.webp"  class="card-img-top img-fluid w-100" alt="Product Image">
+          <div class="card-body">
+            <h2 class="card-title text-col1 ">Fresh Watermelon</h2>
+            <pv class="text-col1">Fruit , Watermelon</pv>
+            <p class="card-text text-success fw-bold">$32.00</p>
+            <a href="#" class="btn text-col1 background-col1 rounded-pill text-center">
+            <i class="fa-solid fa-cart-shopping me-1"></i> Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+   
+   <!--botstrap js 5.3-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  <footer class="footer-bg-custom mt-5 py-5 text-white ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 px-4 ps-5">
+                    <h5 class="fw-bold mb-3 text-col3 fs-2">LadangMart</h5>
+                    <p class="text-white-50 small text-col3 fs-6">
+                        consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo.
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg rounded-pill btn-outline-light " placeholder="Email">
+                        </div>
+                        <button class="btn btn-success fw-bold py-2 px-4 w-100 rounded-pill background-col1 text-col1" type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 px-5 ps-5">
+                    <h5 class="fw-bold mb-3 text-col3 fs-2">Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Home</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none fs-5 text-col3">Service</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Shop</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Pages</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 px-5">
+                    <h5 class="fw-bold mb-3 fs-2 text-col3">Quick Link</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none fs-5 text-col3">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">FAQ</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Blog</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Shop</a></li>
+                        <li class="mb-2"><a href="#" class=" text-decoration-none fs-5 text-col3">Testimonial</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 px-3">
+                    <h5 class="fw-bold mb-3 fs-2 text-col3">Information</h5>
+                    <p class="  fs-5 text-col3">(105) 115-3920</p>
+                    <p class="  fs-5 text-col3">201 Air Street, 3rd Floor</p>
+                    <p class=" mb-4 fs-5 text-col3">support@ladangmart.com</p>
+                    <div class="d-flex social-icons-container">
+                        <a href="#" class="btn btn-success rounded-circle d-flex justify-content-center align-items-center me-3 social-icon-size-custom">
+                            <i class="fab fa-facebook-f text-dark"></i>
+                        </a>
+                        <a href="#" class="btn btn-success rounded-circle d-flex justify-content-center align-items-center me-3 social-icon-size-custom">
+                            <i class="fab fa-linkedin-in text-dark"></i>
+                        </a>
+                        <a href="#" class="btn btn-success rounded-circle d-flex justify-content-center align-items-center social-icon-size-custom">
+                            <i class="fab fa-instagram text-dark"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+</html>

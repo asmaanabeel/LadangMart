@@ -70,6 +70,9 @@ font-size: 100px;
 .padding2{
     padding-bottom:50px !important ;
 }
+.padding2{
+    padding-bottom:30px !important ;
+}
 
 body {
     background-color: #f8f9fa; 
@@ -119,4 +122,34 @@ background-color:#FFFAEF;
 
 .form-control .btn-outline-light { 
     background-color: #416A40 !important;
+}
+
+.Customer .Customer1 img{
+    width: 60px; 
+    height: 60px;
+}
+.Customer .Customer2 img{
+    max-width: 300px
+}
+.borders{
+    width: 90%;
+}
+.serves{
+    width: fit-content;
+}
+.serves1{
+    max-width: 300px; 
+    height: auto;
+}
+.serves2{
+    width: 150px;
+     height: auto;
+      z-index: 1
+}
+.card2{
+    max-width: 120px;
+     height: auto;
+}
+.card1{
+    max-width: 80%;
 }
